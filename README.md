@@ -95,7 +95,7 @@ The `credentials.json` file should look like this:
 
 ### 1. Get Your Echo API Key
 
-1. Sign up at [Echo](https://echo.zdql.com) if you haven't already
+1. Sign up at [Echo](https://echo.merit.systems) if you haven't already
 2. Get your API key from the dashboard
 
 ### 2. Login to Echo
