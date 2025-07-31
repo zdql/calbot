@@ -1,0 +1,51 @@
+{
+  "name": "calbot",
+  "version": "1.0.0",
+  "description": "CLI application for checking availability and scheduling events",
+  "type": "module",
+  "main": "dist/cli.js",
+  "bin": {
+    "calbot": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc && chmod +x dist/cli.js",
+    "dev": "tsc --watch",
+    "link": "bun run build && npm link",
+    "unlink": "npm unlink -g fine-tuna",
+    "lint": "pnpx eslint src/**/*.ts",
+    "lint:fix": "pnpx eslint src/**/*.ts --fix",
+    "type-check": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest --watch",
+    "prepublishOnly": "bun run build"
+  },
+  "keywords": [
+    "echo",
+    "typescript",
+    "cli",
+    "sdk",
+    "api"
+  ],
+  "author": "Echo Team",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/local-auth": "^3.0.1",
+    "@zdql/echo-typescript-sdk": "1.0.18",
+    "chalk": "^5.3.0",
+    "commander": "^11.0.0",
+    "dotenv": "^17.2.1",
+    "googleapis": "^154.1.0",
+    "inquirer": "^9.2.0",
+    "open": "^9.1.0",
+    "openai": "^5.11.0",
+    "zod": "^4.0.14"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "devDependencies": {
+    "@types/inquirer": "^9.0.8",
+    "@types/node": "^24.1.0",
+    "typescript": "^5.8.3"
+  }
+}
