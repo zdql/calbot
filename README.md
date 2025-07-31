@@ -1,6 +1,6 @@
 # CalBot - AI Calendar Agent
 
-CalBot is a CLI application that provides an interactive AI agent with access to Google Calendar tools and bash commands. It helps you check availability, schedule events, discover coworkers, and manage your calendar efficiently.
+CalBot is a CLI application that provides an interactive AI agent with access to Google Calendar tools. It helps you check availability, schedule events, discover coworkers, and manage your calendar efficiently.
 
 ## Features
 
