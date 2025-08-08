@@ -3,5 +3,5 @@ interface EchoAppConfig {
 }
 
 export const ECHO_APP_CONFIG: EchoAppConfig = {
-  appId: '61fae4f6-eca8-4453-9960-fdd0ad560afc',
+  appId: 'fe4ff624-b7ac-45ed-abf9-a4cf30178461',
 };
